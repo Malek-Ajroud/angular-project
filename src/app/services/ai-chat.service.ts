@@ -30,7 +30,11 @@ export class AiChatService {
         });
 
         const body = {
+<<<<<<< HEAD
             model: 'meta-llama/llama-3.2-3b-instruct:free',
+=======
+            model: 'xiaomi/mimo-v2-flash:free',
+>>>>>>> 5141a406c55cd6cf5e56d3cfa4a2ca61857311d3
             messages: [
                 { role: 'user', content: userMessage }
             ]
